@@ -1,0 +1,59 @@
+.mainba-box{
+    display: flex;
+    background-color: rgb(3, 102, 102);
+    height: 25px;
+    width: 50px;
+    margin: auto;
+  }
+  
+  
+  /* Basic styling for the select element */  
+  #language {  
+    width: 218px;               /* Set the width */  
+    padding: 10px;              /* Add padding */  
+    font-size: 16px;            /* Font size */  
+    color: #333;                /* Text color */  
+    background-color: #f9f9f9;  /* Background color */  
+    border: 1px solid #ccc;     /* Border */  
+    border-radius: 4px;         /* Rounded corners */  
+    appearance: none;           /* Remove default styling (for webkit browsers) */  
+    background-image: url('arrow-down.svg'); /* Custom dropdown arrow */  
+    background-repeat: no-repeat;  
+    background-position: right 10px center; /* Position the custom arrow */
+    cursor: pointer;  
+    margin-bottom: 50px;
+  }  
+  
+  /* Change color on hover */  
+  #language:hover {  
+    border-color: #888;         /* Change border color on hover */  
+  }  
+  
+  /* Change color when focused */  
+  #language:focus {  
+    border-color: #0056b3;      /* Change border color when focused */  
+    outline: none;              /* Remove default outline */  
+  }  
+  
+  /* Style for option elements (Limited control) */  
+  #language option {  
+    padding: 10px;              /* Padding for options */  
+    color: #333;                /* Text color for options */  
+    background-color: #ffffff;  /* Background color for options */  
+  }  
+  
+  /* Custom styles for the dropdown */  
+  #language option:hover {  
+    background-color: #f0f0f0;  /* Background color on hover for dropdown options */  
+  }
+  
+  .main-box{  
+    background-color: #add8e6; /* Light blue background */  
+    padding: 30px;             /* Space inside the box */  
+    border-radius: 5px;        /* Slightly rounded corners */  
+    border: 1px solid #007bb5; /* Optional: border color */  
+    color: #333;               /* Text color */  
+    font-size: 16px;           /* Font size */  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */ 
+   
+  }
