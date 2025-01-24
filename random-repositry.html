@@ -1,24 +1,31 @@
-q<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Random Repository</title>
-    <!-- Link to external CSS -->
-    <link rel="stylesheet" href="styleit.css">
-</head>
-<body>
-  <p style="font-size: 30px">Github Repasitory Finder</p>
-  <div>
-  <select id="language">
-    <option id="fetch-repo" value="">select a language</option>
-    <option id="fetch-repo" value="JavaScript">JavaScript</option>
-    <option id="fetch-repo" value="Python">Python</option>
-    <option id="fetch-repo" value="Html">Html</option>
-  </select>
-</div>
-  <label for="language" class="main-box">Please select a language</label>
-    <!-- Link to external JavaScript -->
-    <script src="script.js"></script>
-</body>
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Random Repository</title>  
+    <link rel="stylesheet" href="styleit.css">  
+    <style>  
+        /* Insert your improved CSS styles here, as shown above */  
+    </style>  
+</head>  
+<body>  
+    <div>  
+        <p style="font-size: 30px; font-family: 'Brush Script MT', cursive;">GitHub Repository Finder</p>  
+        <div class="no-text">  
+            <select id="language">  
+                <option value="">Select a language</option>  
+                <option value="JavaScript">JavaScript</option>  
+                <option value="Python">Python</option>  
+                <option value="HTML">HTML</option>  
+            </select>  
+            <button class="search-button" id="fetch-repo">Search</button>  
+        </div>  
+        <div class="main-box">  
+            <label for="language">Please select a language</label>  
+            <div id="repo-info"></div> <!-- Placeholder for repository info -->  
+        </div>  
+    </div>  
+    <script src="script.js"></script>  
+</body>  
 </html>
